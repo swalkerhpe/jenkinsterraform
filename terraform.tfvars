@@ -1,0 +1,14 @@
+#my_key  = "../stevewalkerapp1-e48acf09cf9a.json"
+#my_key  = "stevewalkerapp1-81af866ef29a.json"
+my_key  = "./creds/serviceaccount.json"
+project     = "stevewalkerapp1"
+region      = "europe-west2"
+machine_type = "e2-micro"
+zone         = "europe-west2-c"
+image = "debian-cloud/debian-10"
+metadata_startup_script = "sudo apt-get update; sudo apt-get install -yq nginx"
+network_type = "default"
+tags = ["http-server"]
+template_name = "terraformstevetemplate1"
+#node_count = 3
+#name = "stevewalkerapp01"
